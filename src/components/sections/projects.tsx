@@ -18,6 +18,7 @@ import { cn } from "@/lib/utils";
 function statusColor(status: string) {
   if (status.toLowerCase().includes("production")) return "bg-emerald-400";
   if (status.toLowerCase().includes("open")) return "bg-signal";
+  if (status.toLowerCase().includes("personal")) return "bg-brand";
   return "bg-muted-foreground";
 }
 
@@ -28,11 +29,11 @@ export function Projects() {
         <SectionHeading
           index="02"
           eyebrow="Selected work"
-          title="Systems, not demos."
-          description="A few builds where retrieval, tooling, and evaluation had to work under real traffic."
+          title="Built end to end."
+          description="A time-management app designed and shipped with Next.js and OpenCode. More work on the way."
         />
         <p className="max-w-xs font-mono text-[11px] uppercase leading-5 tracking-[0.14em] text-muted-foreground/70">
-          Case studies available on request
+          Ask me about the build
         </p>
       </div>
 

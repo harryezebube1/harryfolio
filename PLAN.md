@@ -30,7 +30,7 @@ AI Engineer portfolio for Harry. Dark-mode-first developer aesthetic.
 ## Phase 2 — Content ✅
 
 - [x] About section with bio, principles, and skill matrix
-- [x] Featured AI projects with metrics and stack
+- [x] Selected work card for Habit Tracker (real project; no placeholder entries)
 - [x] Experience timeline
 - [x] Writing / blog placeholders
 - [x] Contact section using `mailto:` (no backend)
@@ -60,5 +60,5 @@ AI Engineer portfolio for Harry. Dark-mode-first developer aesthetic.
 
 ## Known placeholders
 
-- Project, experience, and writing copy in `src/content/` is placeholder material; replace it with real history.
+- Experience and writing copy in `src/content/` is placeholder material; replace it with real history. Project copy is real (Habit Tracker).
 - Resume links point to `#contact` until a PDF is added to `public/`.

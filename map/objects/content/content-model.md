@@ -17,7 +17,7 @@ Copy changes should not require hunting through JSX. Each kind of content export
 ## Shape
 
 - `types.ts`: `Project`, `Experience`, `Writing`, `SkillGroup`, `Metric`, `ContentLink`.
-- `projects.ts`: three projects with stack, highlights, metrics, optional link.
+- `projects.ts`: real projects only (currently Habit Tracker), each with stack, highlights, metrics, optional link. The card layout spans full width for a single entry.
 - `experience.ts`: three roles with period, location, summary, highlights, stack.
 - `writing.ts`: three drafts; `href` is optional, absent means "Soon".
 - `profile.ts`: intro paragraphs, principles, now strip, three skill groups.
