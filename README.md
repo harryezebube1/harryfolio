@@ -2,6 +2,8 @@
 
 Personal portfolio for Harry Ezebube, an AI Engineer. Dark-mode-first, built with the App Router.
 
+**Live:** <https://harryfolio-five.vercel.app>
+
 ## Stack
 
 - [Next.js 16](https://nextjs.org) (App Router, Turbopack)
@@ -23,6 +25,15 @@ Open <http://localhost:3000>.
 npm run lint     # ESLint
 npm run build    # production build
 npm run start    # serve the production build
+```
+
+## Deployment
+
+Hosted on Vercel. Pushing to `main` deploys to production; other branches get preview URLs.
+
+```bash
+vercel deploy --prod   # manual production deploy
+vercel ls              # recent deployments
 ```
 
 ## Project structure
